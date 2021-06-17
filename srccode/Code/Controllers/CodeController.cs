@@ -23,5 +23,6 @@ namespace Code.Controllers
             var returnIndex = rnd.Next(0, 10);
             return Numbers[returnIndex].ToString();
         }
+
     }
 }

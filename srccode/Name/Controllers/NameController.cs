@@ -13,15 +13,31 @@ namespace Name.Controllers
     {
         private static readonly string[] Letters = new[]
         {
-            "Ahmed","Bilal", "Charlie","Daniella","Edward","Fanta","Grizzly","Henry","Indigo","Jamel"
+            "Kamran","Atiyya","Zeeshan","Shafia","Shayan",
         };
 
         [HttpGet]
         public ActionResult<string> Get()
         {
             var rnd = new Random();
-            var returnIndex = rnd.Next(0, 10);
+            var returnIndex = rnd.Next(0, 5);
             return Letters[returnIndex].ToString();
+        }
+
+        public class LastNameController : ControllerBase
+        {
+            private static readonly string[] Letters = new[]
+            {
+            "ahmed","noori","smith","majeed","kaleo",
+        };
+
+            [HttpGet]
+            public ActionResult<string> Get()
+            {
+                var rnd = new Random();
+                var returnIndex = rnd.Next(0, 5);
+                return Letters[returnIndex].ToString();
+            }
         }
     }
 }
