@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Merge;
+using servicethree;
+//using servicethree;
+//using Name;
 
 namespace Merge
 {
@@ -24,3 +28,4 @@ namespace Merge
                 });
     }
 }
+
