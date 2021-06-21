@@ -24,10 +24,10 @@ namespace RaffleTests.Controller
 
             //Assert 
         }
-        [Fact]
-        public void GetNameControllers()
-        {
+        //[Fact]
+        //public void GetNameControllers()
+        //{
 
-        }
+        //}
     }
 }
