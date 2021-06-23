@@ -17,27 +17,26 @@ Kaspas LTD is an ice cream parlour that provides the user with the ability to cr
 ## Aims & Objectives 
   Aims                                                    | Objectives                                                                     |
 | :----------------------------------------------------:  | :------------------------------------------------------------------------------:
-| 1) Create a solution to a real business problem         | a) Curate an idea that solves an issue                                          |
+| 1) Create a solution                                    | a) Curate an idea that solves an issue                                          |
 | 2) Design a Full Stack App using 4 services             | b) Create a High Fidelity ProtoType/Wireframe with Lucid                        |
-| 3) Setup Agile Methodology software                     | c) Create Trello board, Jira, GitHub and set time goals                         |
+| 3) Setup Agile Methodology software                     | c) Create Asana board, Jira, GitHub and set time goals                          |
 | 4) Implement App using CRUD Functionality               | d) Use Technologies listed below to implement App                               |
-| 5) Test App using BlackBox, WhiteBox, UNIT & X testing  | e) Use Automation testing and test each feature of the App against requirements |
+| 5) Test App using UNIT testing                          | e) Use Automation testing and test each feature of the App against requirements |
 | 6) Use CI & CD to ensure efficient version control      | f) Use GitHub and Visual Studio to continously integrate and deploy App edits   |
-| 7) Deploy App                                           | g) Deploy App using Azure DevOps or Pipelines                                   |
+| 7) Deploy App                                           | g) Deploy App using GitHub actions and Terraform                                |
 
 
 
 ## Technologies & Methodologies Used
-* Project Management: Agile methodology, Kanban - Trello, Jira, GitHub 
-* MySQL Databases
+* Project Management: Agile methodology, Kanban - Asana, Jira, GitHub 
 * C#
 * HTML
 * CSS
 * ASP.NET
 * Git
 * Continous Integration
-* Azure Portal
-* MySQL WorkBench 
+* Azure Portal/CLI
+* Terraform 
 * LucidSpark
 * Jira
 
@@ -46,7 +45,7 @@ Kaspas LTD is an ice cream parlour that provides the user with the ability to cr
 <p align="center">
   <img width="600" height="350" src="https://github.com/tehmina-ahmed/Kaspas_Till_System/blob/main/Documentation/Trello%20Board.png">
 </p>
-Here is the Trello Kanban Board used to track tasks against time and the priority order of them. The Board displays tasks that were ordered into...
+Here is the Asana Kanban Board used to track tasks against time and the priority order of them. The Board displays tasks that were ordered into...
 To-Do,
  In Progress, and, 
  Done 
@@ -66,13 +65,6 @@ This technique allowed me to see which requirements would be essential to implem
 </p>
 Above is the Backlog for the previously intended MVP (minimum viable product) which was the initial plan. The App was initially designed to allows customers to create an order by appending one or more products to their order. However due to time constraints, this idea had to be modified to realistically meet the deadline. And so, the idea and database tables was simplified so that the user creates their own idea of a dessert with a topping. 
 
-### Database ER Diagram (inc. stretch goal tables) 
-
-<p align="center">
-  <img width="550" height="550" src="https://github.com/tehmina-ahmed/Kaspas_Till_System/blob/main/Documentation/KaspasTill%20Database%20ER%20Diagram%20-%20Database%20ER%20diagram%20(crow's%20foot).png">
-</p>
-This ER Diagram included four tables that were to be appended to the KaspasDB Database using C# to implement them and MySQL WorkBench to modify and view them. The MySQL WorkBench was utilising an Azure single server to satisfy its connection string with. The updated Diagram below shows how in actuality, the minimum requirements of only two databases were implemented due to some programming bugs and a lack of time to display them on the front end successfully. Due to this, the Products and Toppings tables were chosen to be implemented. 
-
 
 ### Design - Wireframes 
 
@@ -90,17 +82,11 @@ Place Order                                                                     
 :-----------------------------------------------------------------------------------------------------------------: |:-------------------------:
 ![](https://github.com/tehmina-ahmed/Kaspas_Till_System/blob/main/Documentation/User%20Story%20Delete%20Order.png)  | ![](https://github.com/tehmina-ahmed/Kaspas_Till_System/blob/main/Documentation/User%20Story%20Place%20Order.png) |
 
-The user stories display scenarios of how the App interacts with user actions. The user could place an order by appending products, and could also delete an order. 
+The user stories display the scenario of how the App interacts with the user indirectly, using a frontend to display the randomly generated results and 3 webApi's running in the background. 
 
 
 ## Updated Documentation (After idea modification)
 
-### Updated Database ER Diagram 
-<p align="center">
-  <img width="550" height="520" src="https://github.com/tehmina-ahmed/Kaspas_Till_System/blob/main/Documentation/Updated%20ER%20Database%20Diagram%20Kaspas%20App.png">
-</p>
-
-The updated Diagram shows the relationship between the two MVP tables which are that one product can have ONE OR MANY toppings (or that one or many toppings can be applied to one product). This is a simple real life concept which was more realistic to implement alongside the  time constraints. The context was also more logical as creating a products and orders tables as MVP would have been complicated without creating a customers' table also. 
 
 ### Risk Assessment 
 <p align="center">
@@ -116,11 +102,6 @@ The updated Diagram shows the relationship between the two MVP tables which are 
   <img width="750" height="475" src="https://github.com/tehmina-ahmed/Kaspas_Till_System/blob/main/Documentation/RA%204.png">
 </p>
 
-### Updated Trello Board 
-<p align="center">
-  <img width="750" height="475" src="https://github.com/tehmina-ahmed/Kaspas_Till_System/blob/main/Documentation/Updated%20Trello.png">
-</p>
-Here is the Updated Kanban Trello board which shows i have completed majority of the MVP requirements. 
 
 ## Report 
 What I did well                                                                                                     |  How could I improve?
@@ -138,7 +119,7 @@ What I did well                                                                 
   <img width="750" height="475" src="https://github.com/tehmina-ahmed/Kaspas_Till_System/blob/main/Documentation/Deployment%20bugs.png">
 </p>
 
-This bug was encountered multiple times and when i would try to change the repo and generate the secret, VS Studio would continously crash; even after being re-installed. 
+
 
 
 ## Developer
