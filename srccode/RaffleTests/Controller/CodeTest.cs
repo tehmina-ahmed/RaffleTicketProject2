@@ -8,7 +8,7 @@ using Code.Controllers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RaffleTests.Controller {
-    public class CodeControllerTest
+    public class CodeTest
     {
         [Fact]
 

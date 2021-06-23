@@ -8,11 +8,13 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Merge;
 using servicethree;
+using System.Diagnostics.CodeAnalysis;
 //using servicethree;
 //using Name;
 
 namespace Merge
 {
+    [ExcludeFromCodeCoverage]
     public class Program
     {
         public static void Main(string[] args)

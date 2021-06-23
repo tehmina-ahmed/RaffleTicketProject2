@@ -24,20 +24,21 @@ namespace Name.Controllers
             return Letters[returnIndex].ToString();
         }
 
-        public class LastNameController : ControllerBase
-        {
-            private static readonly string[] Letters = new[]
-            {
-            "ahmed","noori","smith","majeed","kaleo",
-        };
+        //public class LastNameController : ControllerBase
+        //{
+        //    private static readonly string[] Letters = new[]
+        //    {
+        //    "ahmed","noori","smith","majeed","kaleo",
+        //};
 
-            [HttpGet]
-            public ActionResult<string> Get()
-            {
-                var rnd = new Random();
-                var returnIndex = rnd.Next(0, 5);
-                return Letters[returnIndex].ToString();
-            }
+        //    [HttpGet]
+        //    public ActionResult<string> Get()
+        //    {
+        //        var rnd = new Random();
+        //        var returnIndex = rnd.Next(0, 5);
+        //        return Letters[returnIndex].ToString();
+        //    }
         }
     }
-}
+
+

@@ -6,7 +6,7 @@ using Xunit;
 
 namespace RaffleTests.Controller
 {
-    public class NameControllerTest
+    public class NameTest
     {
         [Fact]
         public void GetTest()
