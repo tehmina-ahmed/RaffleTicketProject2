@@ -9,6 +9,8 @@ namespace Merge
     {
         public string codeServiceURL { get; set; }
         public string nameServiceURL { get; set; }
+
+        public string mergedServiceURL { get; set; }
     }
 
 }

@@ -17,8 +17,8 @@ namespace RaffleTests.Controller
     {
         private AppSettings appsettings = new AppSettings
         {
-            codeServiceURL = "",
-            nameServiceURL = ""
+            codeServiceURL = "https://codeTA-app-service.azurewebsites.net",
+            nameServiceURL = "https://nameTA-app-service.azurewebsites.net"
         };
         [Fact]
         public async void GetTest()
