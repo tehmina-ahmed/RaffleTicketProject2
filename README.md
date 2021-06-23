@@ -53,7 +53,7 @@ This was helpful and was used as an online diary for me to keep track of my task
 
 ## Requirements - using Moscow Prioritisation
 <p align="center">
-  <img width="600" height="350" src=".png">
+  <img width="500" height="350" src="moscow proj2.png">
 </p>
 This technique allowed me to see which requirements would be essential to implement VS. requirements which would be a stretch goal. 
 
@@ -61,14 +61,14 @@ This technique allowed me to see which requirements would be essential to implem
 
 ### User Stories 
 
-FrontEnd                                                                                                          
-:-----------------------------------------------------------------------------------------------------------------: |
-![](.png)  
+<p align="center">
+  <img width="700" height="350" src="user story proj2.png">
+</p>
 
 The user stories display the scenario of how the App interacts with the user indirectly, using a frontend to display the randomly generated results and 3 webApi's running in the background. 
 
 
-## Updated Documentation (After idea modification)
+## Updated Documentation 
 
 
 ### Risk Assessment 
@@ -85,6 +85,17 @@ The user stories display the scenario of how the App interacts with the user ind
   <img width="750" height="475" src=".png">
 </p>
 
+
+### Testing & Reports 
+<p align="center">
+  <img width="750" height="550" src=".png">
+</p>
+<p align="center">
+  <img width="750" height="550" src=".png">
+</p>
+<p align="center">
+  <img width="750" height="550" src=".png">
+</p>
 
 ## Report 
 What I did well                                                                                                     |  How could I improve?
