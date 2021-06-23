@@ -25,12 +25,14 @@ namespace Merge.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
- 
-            var codeService = "https://localhost:44310/code";
+
+            //var codeService = "https://localhost:44310/code";
+            var codeService = $"{Configuration.codeServiceURL}/code";
             //URL for codeController service
             var codeResponseCall = await new HttpClient().GetStringAsync(codeService);
 
-            var nameService = "https://localhost:44373/name";
+            //var nameService = "https://localhost:44373/name";
+            var nameService = $"{Configuration.nameServiceURL}/name";
             //URL for nameController service
             var nameResponseCall = await new HttpClient().GetStringAsync(nameService);
 
