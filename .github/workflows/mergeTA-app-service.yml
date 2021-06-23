@@ -5,11 +5,11 @@ on:
     - master
 env:
   AZURE_WEBAPP_NAME: mergeTA-app-service
-  AZURE_WEBAPP_PACKAGE_PATH: Merge\published
+  AZURE_WEBAPP_PACKAGE_PATH: ./srccode/Merge/publish
   AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.MERGETA_APP_SERVICE_FFFF }}
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
-  WORKING_DIRECTORY: Merge
+  WORKING_DIRECTORY: ./srccode/Merge
 jobs:
   build:
     runs-on: windows-latest
