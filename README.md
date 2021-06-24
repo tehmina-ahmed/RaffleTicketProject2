@@ -133,6 +133,13 @@ The report above shows that i received 100% for all my tested controllers, which
 </p>
 Above is the screenshot of the main.tf file which is how the the infrastructure was setup to deploy the app using code, via Terraform. The Resources, groups and app-services were made using this file (connected to Azure) where it automatically updated once the GUI desktop was reloaded. 
 
+
+### Azure Resources
+<p align="center">
+  <img width="800" height="550" src="azure.PNG">
+</p>
+This shows how the app services are configured within Azure, this was done using the terraform and yaml files above. 
+
 ### Feature Branch Model
 <p align="center">
   <img width="800" height="550" src="fbm.PNG">
