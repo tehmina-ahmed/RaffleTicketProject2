@@ -72,16 +72,22 @@ To-Do,
  Done 
 This was helpful and was used as an online diary for me to keep track of my tasks. 
 
-## Functional & Non-Functional Requirements 
-### Moscow Prioritisation
+## Documentation
+
+### Functional & Non-Functional Requirements 
+#### Moscow Prioritisation
 <p align="center">
   <img width="500" height="350" src="moscow proj2.png">
 </p>
 This technique allowed me to see which requirements would be essential to implement VS. requirements which would be a stretch goal. 
 
-## Initial Documentation (before idea modification)
+#### Service Architecture 
+<p align="center">
+  <img width="600" height="450" src="service architecture complete.PNG">
+</p>
+ 
 
-### User Stories 
+#### User Stories 
 
 <p align="center">
   <img width="700" height="350" src="user story proj2.png">
@@ -93,7 +99,7 @@ The user stories display the scenario of how the App interacts with the user ind
 ## Updated Documentation 
 
 
-### Risk Assessment 
+#### Risk Assessment 
 <p align="center">
   <img width="750" height="550" src=".png">
 </p>
@@ -102,20 +108,20 @@ The user stories display the scenario of how the App interacts with the user ind
 
 
 ## Testing & Reports 
-### Test 1
+#### Test 1
 <p align="center">
   <img width="800" height="550" src="1st tests results.PNG">
 </p>
 This was the first attempt at testing, the files contained errors that i was not able to easily resolve using namespace. I realised afterwards that certain configurations had to be changed because i was no longer testing using the localhost, rather i had to deploy the app to use the azure appservice URL's to test approprately. 
 
 
-### Test 2
+#### Test 2
 <p align="center">
   <img width="800" height="550" src="testing complete.PNG">
 </p>
 This was when all the tests files had been debugged from errors and passed! what a relief! Now it was time for report generation 
 
-### Test Report
+#### Test Report
 <p align="center">
   <img width="800" height="550" src="test2-96.PNG">
 </p>
@@ -127,20 +133,20 @@ This is the test generated report which shows that the line coverage was 76.7%
 The report above shows that i received 100% for all my tested controllers, which is amazing! However, for improvements' sake if i had to re-do the tests, i would find a way to exclude the views from code coverage to increase the coverage percentage overall.
 
 ## Deployment 
-### Terraform 
+#### Terraform 
 <p align="center">
   <img width="800" height="550" src="tf.PNG">
 </p>
 Above is the screenshot of the main.tf file which is how the the infrastructure was setup to deploy the app using code, via Terraform. The Resources, groups and app-services were made using this file (connected to Azure) where it automatically updated once the GUI desktop was reloaded. 
 
 
-### Azure Resources
+#### Azure Resources
 <p align="center">
   <img width="800" height="550" src="azure.PNG">
 </p>
 This shows how the app services are configured within Azure, this was done using the terraform and yaml files above. 
 
-### Feature Branch Model
+#### Feature Branch Model
 <p align="center">
   <img width="800" height="550" src="fbm.PNG">
 </p>
