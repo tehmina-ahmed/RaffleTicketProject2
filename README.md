@@ -92,19 +92,25 @@ This technique allowed me to see which requirements would be essential to implem
 </p>
 
 #### User Stories 
-
 <p align="center">
   <img width="700" height="350" src="user story proj2.png">
 </p>
 
 The user stories display the scenario of how the App interacts with the user indirectly, using a frontend to display the randomly generated results and 3 webApi's running in the background. 
 
+#### CI/CD Pipeline
+<p align="center">
+  <img width="700" height="450" src="ci pipeline.PNG">
+</p>
+
 
 #### Risk Assessment 
 <p align="center">
-  <img width="750" height="550" src=".png">
+  <img width="750" height="550" src="risk1.PNG">
 </p>
-
+<p align="center">
+  <img width="750" height="550" src="risk2.PNG">
+</p>
 
 
 
@@ -148,6 +154,11 @@ Above is the screenshot of the main.tf file which is how the the infrastructure 
 This shows how the app services are configured within Azure, this was done using the terraform and yaml files above. 
 
 #### Feature Branch Model
+<p align="center">
+  <img width="800" height="550" src="frontend deployed.PNG">
+</p>
+This was the FrontEnd before making the change to add to the new git branch. 
+
 <p align="center">
   <img width="800" height="550" src="fbm.PNG">
 </p>
