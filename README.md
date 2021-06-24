@@ -39,10 +39,10 @@ Service 4 is what the user sees, an MVC FrontEnd containing the functions of ser
   Aims                                                    | Objectives                                                                     |
 | :----------------------------------------------------:  | :------------------------------------------------------------------------------:
 | 1) Create a solution                                    | a) Curate an idea that solves an issue                                          |
-| 2) Design a Full Stack App using 4 services             | b) Create a High Fidelity ProtoType/Wireframe with Lucid                        |
+| 2) Design an App using 4 services                       | b) Create a High Fidelity ProtoType/Wireframe with Lucid                        |
 | 3) Setup Agile Methodology software                     | c) Create Asana board, Jira, GitHub and set time goals                          |
-| 4) Implement App using CRUD Functionality               | d) Use Technologies listed below to implement App                               |
-| 5) Test App using UNIT testing                          | e) Use Unit testing and test each feature of the App against requirements       |
+| 4) Implement App using 4 service functionality          | d) Use Technologies listed below to implement App                               |
+| 5) Test App using xUNIT testing                         | e) Use Unit testing and test each feature of the App against requirements       |
 | 6) Use CI & CD to ensure efficient version control      | f) Use GitHub and Visual Studio to continously integrate and deploy App edits   |
 | 7) Deploy App                                           | g) Deploy App using GitHub actions and Terraform                                |
 
