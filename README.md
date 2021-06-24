@@ -9,8 +9,16 @@ Copyright (c) 2021 RaffleRiff
 
 
 ## Abstract
-The KaspasTill App was planned, designed and has been documented in this ReadMe.MD to show the process of the project. Agile Methodology was used throughout the project to ensure efficiency where possible. It's a Responsive till system App using CRUD functionality. Allowing users to Create an item, View the item, update it and delete it if need be. 
-Kaspas LTD is an ice cream parlour that provides the user with the ability to create a dessert of choice and enter it into the MySQL database. The option for the user is to be able to Create a Dessert and a Topping (as their product of choice), to view it, update it and/ delete it based on their liking of the product. The idea behind this App is to give the user control of their products - essentially replicating the purpose of a self service till. This idea stems from a theory of customer journey where it is beleived that in modern times, the customer should be given more control of their product journey in order to ensure higher rates of satisfaction. This theory has been applied to the Till app to assess this hypothesis. 
+The RaffleTicket App was planned, designed and has been documented in this ReadMe.MD to show the process of the project. Agile Methodology was used throughout the project to ensure efficiency where possible. It's a Raffle Ticket App using a 4 services functionality. Allowing users to View Service 1, which is the FrontEnd displaying the merged service using HTML, CSS and some JavaScript. 
+
+The FrontEnd is an MVC app consisting of 3 WebApi's created using C#. Service 1 (nameController) & 2 (codeController) are strings containing a random generator method which picks a value from the string. Service 3 is a combination/merge of service 1 & 2 where a name and code are added together randomly. The logic behind this is for a user (name) to be picked at random (like a raffle ticket) with a number (code). Service 3 uses the values from service 1 & 2 and creates conditions; so that certain users with a certain code, win certain prizes. For example, the name Kamran with the code of xxxx wins a car. 
+Service 4 is what the user sees, an MVC FrontEnd containing the functions of service 3 (see below). 
+
+### FrontEnd 
+<p align="center">
+  <img width="600" height="350" src="frontend deployed.PNG">
+</p>
+
 
 
 
@@ -51,7 +59,8 @@ To-Do,
  Done 
 This was helpful and was used as an online diary for me to keep track of my tasks. 
 
-## Requirements - using Moscow Prioritisation
+## Functional & Non-Functional Requirements 
+### Moscow Prioritisation
 <p align="center">
   <img width="500" height="350" src="moscow proj2.png">
 </p>
@@ -86,16 +95,34 @@ The user stories display the scenario of how the App interacts with the user ind
 </p>
 
 
-### Testing & Reports 
+## Testing & Reports 
+### Test 1
 <p align="center">
-  <img width="750" height="550" src=".png">
+  <img width="800" height="550" src="1st tests results.PNG">
 </p>
+This was the first attempt at testing, the files contained errors that i was not able to easily resolve using namespace. I realised afterwards that certain configurations had to be changed because i was no longer testing using the localhost, rather i had to deploy the app to use the azure appservice URL's to test approprately. 
+
+
+### Test 2
 <p align="center">
-  <img width="750" height="550" src=".png">
+  <img width="800" height="550" src="testing complete.PNG">
 </p>
+This was when all the tests files had been debugged from errors and passed! what a relief! Now it was time for report generation 
+
+### Test Report
 <p align="center">
-  <img width="750" height="550" src=".png">
+  <img width="800" height="550" src="test2-96.PNG">
 </p>
+This is the test generated report which shows that the line coverage was 76.7%
+
+<p align="center">
+  <img width="800" height="550" src="test2-96%.PNG">
+</p>
+The report above shows that i received 100% for all my tested controllers, which is amazing! However, for improvements' sake if i had to re-do the tests, i would find a way to exclude the views from code coverage to increase the coverage percentage overall.
+
+## Deployment 
+### Terraform 
+
 
 ## Report 
 What I did well                                                                                                     |  How could I improve?
@@ -104,17 +131,18 @@ What I did well                                                                 
 | 2) I used Agile methodology throughout the project to manage tasks and time                                       | b) could have used CSS/BootStrap to make App prettier
 | 3) I successfully created my MVP MVC app with 4 services using C# and MySQL                                       | c) Could have integrated more JavaScript
 | 4) I successfully connected to Azure App services & deployed                                                      | d) Could have done more CI using GitHub if it connected
-| 5) I successfully used HTML, CSS & C# with ASP.NET to create an MVC App with webApi functionality                 | e) Could have implemented Testing by fixing bugs
+| 5) I successfully used HTML, CSS & C# with ASP.NET to create an MVC App with webApi functionality                 | e) Could have created a CSV file and appended to database 
 | 6) I was able to identify and find solutions to risks associated with development in the matrix                   | f) Could have used Angular as part of front end
 | 7) I successfully tested the app and generated reports to test coverage                                           | g) Deploy via Azure Pipelines & DevOps as well 
 
 
 <p align="center">
-  <img width="750" height="475" src=".png">
+  <img width="750" height="475" src="">
 </p>
 
 
-
+## Acknowledgements 
+A sincere thank you to Dara for his continuous support; and Avanade for the opportunity! 
 
 ## Developer
 Tehmina Ahmed
