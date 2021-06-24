@@ -86,6 +86,10 @@ This technique allowed me to see which requirements would be essential to implem
   <img width="600" height="450" src="service architecture complete.PNG">
 </p>
  
+#### Workflow User Journey 
+<p align="center">
+  <img width="750" height="550" src="workflow user journey.PNG">
+</p>
 
 #### User Stories 
 
@@ -94,9 +98,6 @@ This technique allowed me to see which requirements would be essential to implem
 </p>
 
 The user stories display the scenario of how the App interacts with the user indirectly, using a frontend to display the randomly generated results and 3 webApi's running in the background. 
-
-
-## Updated Documentation 
 
 
 #### Risk Assessment 
